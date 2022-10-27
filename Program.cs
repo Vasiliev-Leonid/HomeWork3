@@ -6,20 +6,28 @@
 //12821 -> да
 
 //23432 -> да
-
-//Console.Write("Введите число пятизначное число: ");
-////int number = Convert.ToInt32(Console.ReadLine ());
-//string? number = Console.ReadLine();
-//void CheckingNumber(string number){
-//  if (number[0]==number[4] || number[1]==number[3]){
-//    Console.WriteLine($"Ваше число: {number} - палиндром.");
-//  }
-//  else Console.WriteLine($"Ваше число: {number} - НЕ палиндром.");
+//Console.Write("Введите пятизначное число: ");
+//int n = Convert.ToInt32(Console.ReadLine());
+//void Palindrom5(int n1)
+//{
+//while (n1 > -10000 && n1 < 10000 || n1 > 99999 || n1 < -99999)
+//{
+//Console.Write("Введите пятизначное число: ");
+//n1 = Convert.ToInt32(Console.ReadLine());
 //}
-//if (number.Length == 5){
-//  CheckingNumber(number);
+//int dig1 = n1 / 10000;
+//int dig2 = n1 % 10;
+//if (dig1 == dig2)
+//{
+//dig1 = n1 / 1000 % 10;
+//dig2 = n % 100 / 10;
+//if (dig1 == dig2) Console.Write($"Число {n1} палиндром.");
+//else Console.Write($"Число {n1} не палиндром.");
 //}
-
+//else
+//Console.Write($"Число {n1} не палиндром.");
+//}
+//Palindrom5(n);
 //Задача 21. Напишите программу, которая принимает на вход координаты двух точек 
 //и находит расстояние между ними в 3D пространстве.
 
